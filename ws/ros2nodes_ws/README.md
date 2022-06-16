@@ -4,13 +4,13 @@
 
 - Each node in ROS should be responsible for a single, module purpose (e.g. one node for controlling wheel motors, one node for controlling a laser range-finder, etc). Each node can send and receive data to other nodes via topics, services, actions, or parameters.
     
-  <img src="./utils/gifs/Nodes-TopicandService.gif" width="400">
+  <img src="https://github.com/CagriCatik/ros2beginners/blob/main/utils/gifs/Nodes-TopicandService.gif" width="400">
 
 ## Create the first ROS2 nodes in Python
 
 - Nodes are subprograms in your application. Each node is responsible for only one thing. And nodes communicate between each other through topics, services, and parameters. Here’s an example of an architecture for a ROS2 application, where you can see packages and nodes:Example ROS2 Application
 
-  <img src="./assets/drawio/node.svg" width="500">
+  <img src="https://github.com/CagriCatik/ros2beginners/blob/main/utils/drawio/node.svg" width="500">
 
 - For example, you can have one package that will handle a camera, another package for the wheels of  your robot, and yet another package that will handle motion planning for the robot in the environment. A full robotic system is comprised of many nodes working in concert. In ROS 2, a single executable (C++ program, Python program, etc.) can contain one or more nodes.
 

@@ -2,7 +2,6 @@
 
   <img src="utils/img/logo.png" alt="logo" width="200" height="auto" />
   <h1>ROS2 for Beginners</h1>
-  
   <p>
     Step by Step ROS2 Basics
   </p>
@@ -36,24 +35,22 @@
 
 This repository covers all the new features of ROS 2 using various examples from different sources:
 
-1. [Introduction to ROS2](https://github.com/CagriCatik/ros2beginners/tree/main/ros2intro)
-2. [Understanding ROS2 Nodes](https://github.com/CagriCatik/ros2beginners/tree/main/ros2nodes_ws)
-3. [Understanding ROS2 topics](https://github.com/CagriCatik/ros2beginners/tree/main/ros2topics_ws)
-5. [Understanding ROS2 parameters](https://github.com/CagriCatik/ros2beginners/tree/main/ros2params_ws)
-5. [Understanding ROS2 actions](https://github.com/CagriCatik/ros2beginners/tree/main/ros2actions_ws)
-6. [Understanding ROS2 Launch Files](https://github.com/CagriCatik/ros2beginners/tree/main/ros2launch_ws)
-7. [Useful debugging tools for ROS2 ecosystem](https://github.com/CagriCatik/ros2beginners/tree/main/ros2nodes_ws)
-8. [Logging and logger configuration](https://github.com/CagriCatik/ros2beginners/tree/main/ros2configs_ws)
-9. [Project: Turtlesim](https://github.com/CagriCatik/ros2beginners/tree/main/ros2node_ws)
-10. [Project: Follower Dolly](https://github.com/CagriCatik/ros2beginners/tree/main/project_followerdolly_ws)
-11. [Project: Warehouse](https://github.com/CagriCatik/ros2beginners/tree/main/project_warehouse_ws)
+1. [Introduction to ROS2](https://github.com/CagriCatik/ros2beginners/tree/main/ws/ros2intro)
+2. [Understanding ROS2 Nodes](https://github.com/CagriCatik/ros2beginners/tree/main/ws/ros2nodes_ws)
+3. [Understanding ROS2 topics](https://github.com/CagriCatik/ros2beginners/tree/main/ws/ros2topics_ws)
+5. [Understanding ROS2 parameters](https://github.com/CagriCatik/ros2beginners/tree/main/ws/ros2params_ws)
+5. [Understanding ROS2 actions](https://github.com/CagriCatik/ros2beginners/tree/main/ws/ros2actions_ws)
+6. [Understanding ROS2 Launch Files](https://github.com/CagriCatik/ros2beginners/tree/main/ws/ros2launch_ws)
+7. [Useful debugging tools for ROS2 ecosystem](https://github.com/CagriCatik/ros2beginners/tree/main/ws/ros2nodes_ws)
+8. [Logging and logger configuration](https://github.com/CagriCatik/ros2beginners/tree/main/ws/ros2configs_ws)
+9. [Project: Turtlesim](https://github.com/CagriCatik/ros2beginners/tree/main/ws/ros2node_ws)
+10. [Project: Follower Dolly](https://github.com/CagriCatik/ros2beginners/tree/main/ws/project_followerdolly_ws)
+11. [Project: Warehouse](https://github.com/CagriCatik/ros2beginners/tree/main/ws/project_warehouse_ws)
 
 <!-- About the Project -->
 ## About this Repository
 
 This repository is for introduction and **induction** with the Robot Operating System 2 (or ROS2) framework, and consists of various sources on the Internet, forums, MOOCs, and so on **(in other words, it may include copy-pastes and non-cited stuff from internet. For the most part, I tried to describe or rewrite the whole thing in my own words)**. The applications in this repository are intended to be limited to self-driving cars, hence the name of repository. ROS places great emphasis on modularity and composability. In this way, software modules can be developed independently of the target platform without losing the ability to tailor them to the deployment characteristics of a specific robot. It therefore requires strict separation between the logical structure of the application and the mapping of this structure to hosts, processors and threads. While the former is defined by the package developer, the latter is entirely in the hands of the system integrator.
-
----
 
 ## Install ROS2 and Setup Your Environment
 
@@ -149,9 +146,7 @@ This repository is for introduction and **induction** with the Robot Operating S
 
     **setup.py:** setup.py defines all the build system logic to build and execute Python code in the workspace.
 
----
 
-<!-- Roadmap -->
 ## Roadmap
 
 * [x] Nodes: Template Node, Talker & Listener Nodes
@@ -165,12 +160,8 @@ This repository is for introduction and **induction** with the Robot Operating S
 * [ ] Follower Dolly
 * [ ] Warehouse
 
----
 
-<!-- Acknowledgments -->
 ## Acknowledgements
-
-Use this section to mention useful resources and libraries that you have used in your projects.
 
  - [ROS2 - Changes](http://design.ros2.org/articles/changes.html)
  - [ROS2 - Tutorials](https://docs.ros.org/en/galactic/Tutorials.html)
