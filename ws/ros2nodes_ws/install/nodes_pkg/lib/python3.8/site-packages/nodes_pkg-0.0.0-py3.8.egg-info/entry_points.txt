@@ -1,0 +1,4 @@
+[console_scripts]
+listener_node = nodes_pkg.listener:main
+py_node = nodes_pkg.my_first_node:main
+talker_node = nodes_pkg.talker:main

@@ -1,0 +1,4 @@
+CMake Warning at CMakeLists.txt:16 (message):
+  Ignition Gazebo 5 or 6 not found, proceeding without that simulator.
+
+

@@ -1,0 +1,74 @@
+[0.000000] (-) TimerEvent: {}
+[0.000269] (nodes_pkg) JobQueued: {'identifier': 'nodes_pkg', 'dependencies': OrderedDict()}
+[0.000336] (nodes_pkg) JobStarted: {'identifier': 'nodes_pkg'}
+[0.099740] (-) TimerEvent: {}
+[0.199981] (-) TimerEvent: {}
+[0.300160] (-) TimerEvent: {}
+[0.400326] (-) TimerEvent: {}
+[0.500515] (-) TimerEvent: {}
+[0.600789] (-) TimerEvent: {}
+[0.700967] (-) TimerEvent: {}
+[0.801140] (-) TimerEvent: {}
+[0.901312] (-) TimerEvent: {}
+[1.001476] (-) TimerEvent: {}
+[1.096058] (nodes_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/nodes_pkg', 'build', '--build-base', '/home/cc/ros2beginners/ws/ros2nodes_ws/build/nodes_pkg/build', 'install', '--prefix', '/home/cc/ros2beginners/ws/ros2nodes_ws/install/nodes_pkg', '--record', '/home/cc/ros2beginners/ws/ros2nodes_ws/build/nodes_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/cc/ros2beginners/ws/ros2nodes_ws/src/nodes_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'cc', 'LC_TIME': 'de_DE.UTF-8', 'SSH_AGENT_PID': '2197', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/cuda/lib64:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib', 'HOME': '/home/cc', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/cc/ros2beginners/ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_DE.UTF-8', 'MANAGERPID': '2025', 'DBUS_STARTER_BUS_TYPE': 'session', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=8f178aaf96969dbcbba7c4a362ab5e1a', 'COLORTERM': 'truecolor', '_CE_M': '', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'cc', 'JOURNAL_STREAM': '8:39865', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'cc', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/usr/local/cuda/bin:/home/cc/anaconda3/condabin:/opt/ros/galactic/bin:/home/cc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/cc-mega:@/tmp/.ICE-unix/2233,unix/cc-mega:/tmp/.ICE-unix/2233', 'INVOCATION_ID': '96cfcc4acf6a4bee8f7f4edaef467265', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6102f42e_8bd8_4ad0_8c9d_486f62276b90', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.824', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/galactic', 'CONDA_PYTHON_EXE': '/home/cc/anaconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/cc/ros2beginners/ws/ros2nodes_ws/build/nodes_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/cc/anaconda3/bin/conda', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=8f178aaf96969dbcbba7c4a362ab5e1a', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'UE4_ROOT': '/home/cc/UnrealEngine_4.26', 'PYTHONPATH': '/home/cc/ros2beginners/ws/ros2nodes_ws/install/nodes_pkg/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[1.101542] (-) TimerEvent: {}
+[1.201733] (-) TimerEvent: {}
+[1.256039] (nodes_pkg) StderrLine: {'line': b"/home/cc/.local/lib/python3.8/site-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[1.256168] (nodes_pkg) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.256209] (nodes_pkg) StderrLine: {'line': b"/home/cc/.local/lib/python3.8/site-packages/setuptools/dist.py:772: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead\n"}
+[1.256248] (nodes_pkg) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.301840] (-) TimerEvent: {}
+[1.402068] (-) TimerEvent: {}
+[1.502266] (-) TimerEvent: {}
+[1.602466] (-) TimerEvent: {}
+[1.606257] (nodes_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.606667] (nodes_pkg) StdoutLine: {'line': b'creating ../../build/nodes_pkg/nodes_pkg.egg-info\n'}
+[1.643719] (nodes_pkg) StdoutLine: {'line': b'writing ../../build/nodes_pkg/nodes_pkg.egg-info/PKG-INFO\n'}
+[1.673281] (nodes_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/nodes_pkg/nodes_pkg.egg-info/dependency_links.txt\n'}
+[1.702525] (-) TimerEvent: {}
+[1.762910] (nodes_pkg) StdoutLine: {'line': b'writing entry points to ../../build/nodes_pkg/nodes_pkg.egg-info/entry_points.txt\n'}
+[1.802606] (-) TimerEvent: {}
+[1.822792] (nodes_pkg) StdoutLine: {'line': b'writing requirements to ../../build/nodes_pkg/nodes_pkg.egg-info/requires.txt\n'}
+[1.852289] (nodes_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/nodes_pkg/nodes_pkg.egg-info/top_level.txt\n'}
+[1.859010] (nodes_pkg) StdoutLine: {'line': b"writing manifest file '../../build/nodes_pkg/nodes_pkg.egg-info/SOURCES.txt'\n"}
+[1.902672] (-) TimerEvent: {}
+[1.904268] (nodes_pkg) StdoutLine: {'line': b"reading manifest file '../../build/nodes_pkg/nodes_pkg.egg-info/SOURCES.txt'\n"}
+[1.904664] (nodes_pkg) StdoutLine: {'line': b"writing manifest file '../../build/nodes_pkg/nodes_pkg.egg-info/SOURCES.txt'\n"}
+[1.904732] (nodes_pkg) StdoutLine: {'line': b'running build\n'}
+[1.904769] (nodes_pkg) StdoutLine: {'line': b'running build_py\n'}
+[1.904879] (nodes_pkg) StdoutLine: {'line': b'creating /home/cc/ros2beginners/ws/ros2nodes_ws/build/nodes_pkg/build\n'}
+[1.904947] (nodes_pkg) StdoutLine: {'line': b'creating /home/cc/ros2beginners/ws/ros2nodes_ws/build/nodes_pkg/build/lib\n'}
+[1.905852] (nodes_pkg) StdoutLine: {'line': b'creating /home/cc/ros2beginners/ws/ros2nodes_ws/build/nodes_pkg/build/lib/nodes_pkg\n'}
+[1.906008] (nodes_pkg) StdoutLine: {'line': b'copying nodes_pkg/my_first_node.py -> /home/cc/ros2beginners/ws/ros2nodes_ws/build/nodes_pkg/build/lib/nodes_pkg\n'}
+[1.906169] (nodes_pkg) StdoutLine: {'line': b'copying nodes_pkg/__init__.py -> /home/cc/ros2beginners/ws/ros2nodes_ws/build/nodes_pkg/build/lib/nodes_pkg\n'}
+[1.906221] (nodes_pkg) StdoutLine: {'line': b'copying nodes_pkg/listener.py -> /home/cc/ros2beginners/ws/ros2nodes_ws/build/nodes_pkg/build/lib/nodes_pkg\n'}
+[1.906273] (nodes_pkg) StdoutLine: {'line': b'copying nodes_pkg/talker.py -> /home/cc/ros2beginners/ws/ros2nodes_ws/build/nodes_pkg/build/lib/nodes_pkg\n'}
+[1.906315] (nodes_pkg) StdoutLine: {'line': b'copying nodes_pkg/template_python_node.py -> /home/cc/ros2beginners/ws/ros2nodes_ws/build/nodes_pkg/build/lib/nodes_pkg\n'}
+[1.906450] (nodes_pkg) StdoutLine: {'line': b'running install\n'}
+[1.906598] (nodes_pkg) StderrLine: {'line': b'/home/cc/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.906659] (nodes_pkg) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.909674] (nodes_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[1.952402] (nodes_pkg) StdoutLine: {'line': b'creating /home/cc/ros2beginners/ws/ros2nodes_ws/install/nodes_pkg/lib/python3.8/site-packages/nodes_pkg\n'}
+[1.952529] (nodes_pkg) StdoutLine: {'line': b'copying /home/cc/ros2beginners/ws/ros2nodes_ws/build/nodes_pkg/build/lib/nodes_pkg/my_first_node.py -> /home/cc/ros2beginners/ws/ros2nodes_ws/install/nodes_pkg/lib/python3.8/site-packages/nodes_pkg\n'}
+[1.952572] (nodes_pkg) StdoutLine: {'line': b'copying /home/cc/ros2beginners/ws/ros2nodes_ws/build/nodes_pkg/build/lib/nodes_pkg/__init__.py -> /home/cc/ros2beginners/ws/ros2nodes_ws/install/nodes_pkg/lib/python3.8/site-packages/nodes_pkg\n'}
+[1.952607] (nodes_pkg) StdoutLine: {'line': b'copying /home/cc/ros2beginners/ws/ros2nodes_ws/build/nodes_pkg/build/lib/nodes_pkg/listener.py -> /home/cc/ros2beginners/ws/ros2nodes_ws/install/nodes_pkg/lib/python3.8/site-packages/nodes_pkg\n'}
+[1.952644] (nodes_pkg) StdoutLine: {'line': b'copying /home/cc/ros2beginners/ws/ros2nodes_ws/build/nodes_pkg/build/lib/nodes_pkg/talker.py -> /home/cc/ros2beginners/ws/ros2nodes_ws/install/nodes_pkg/lib/python3.8/site-packages/nodes_pkg\n'}
+[1.952687] (nodes_pkg) StdoutLine: {'line': b'copying /home/cc/ros2beginners/ws/ros2nodes_ws/build/nodes_pkg/build/lib/nodes_pkg/template_python_node.py -> /home/cc/ros2beginners/ws/ros2nodes_ws/install/nodes_pkg/lib/python3.8/site-packages/nodes_pkg\n'}
+[1.952872] (nodes_pkg) StdoutLine: {'line': b'byte-compiling /home/cc/ros2beginners/ws/ros2nodes_ws/install/nodes_pkg/lib/python3.8/site-packages/nodes_pkg/my_first_node.py to my_first_node.cpython-38.pyc\n'}
+[1.953091] (nodes_pkg) StdoutLine: {'line': b'byte-compiling /home/cc/ros2beginners/ws/ros2nodes_ws/install/nodes_pkg/lib/python3.8/site-packages/nodes_pkg/__init__.py to __init__.cpython-38.pyc\n'}
+[1.953234] (nodes_pkg) StdoutLine: {'line': b'byte-compiling /home/cc/ros2beginners/ws/ros2nodes_ws/install/nodes_pkg/lib/python3.8/site-packages/nodes_pkg/listener.py to listener.cpython-38.pyc\n'}
+[1.953361] (nodes_pkg) StdoutLine: {'line': b'byte-compiling /home/cc/ros2beginners/ws/ros2nodes_ws/install/nodes_pkg/lib/python3.8/site-packages/nodes_pkg/talker.py to talker.cpython-38.pyc\n'}
+[1.953583] (nodes_pkg) StdoutLine: {'line': b'byte-compiling /home/cc/ros2beginners/ws/ros2nodes_ws/install/nodes_pkg/lib/python3.8/site-packages/nodes_pkg/template_python_node.py to template_python_node.cpython-38.pyc\n'}
+[1.953727] (nodes_pkg) StdoutLine: {'line': b'running install_data\n'}
+[1.961813] (nodes_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.000018] (nodes_pkg) StdoutLine: {'line': b'Copying ../../build/nodes_pkg/nodes_pkg.egg-info to /home/cc/ros2beginners/ws/ros2nodes_ws/install/nodes_pkg/lib/python3.8/site-packages/nodes_pkg-0.0.0-py3.8.egg-info\n'}
+[2.000358] (nodes_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[2.002730] (-) TimerEvent: {}
+[2.069011] (nodes_pkg) StdoutLine: {'line': b'Installing listener_node script to /home/cc/ros2beginners/ws/ros2nodes_ws/install/nodes_pkg/lib/nodes_pkg\n'}
+[2.069173] (nodes_pkg) StdoutLine: {'line': b'Installing py_node script to /home/cc/ros2beginners/ws/ros2nodes_ws/install/nodes_pkg/lib/nodes_pkg\n'}
+[2.069268] (nodes_pkg) StdoutLine: {'line': b'Installing talker_node script to /home/cc/ros2beginners/ws/ros2nodes_ws/install/nodes_pkg/lib/nodes_pkg\n'}
+[2.069368] (nodes_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/cc/ros2beginners/ws/ros2nodes_ws/build/nodes_pkg/install.log'\n"}
+[2.087678] (nodes_pkg) CommandEnded: {'returncode': 0}
+[2.096991] (nodes_pkg) JobEnded: {'identifier': 'nodes_pkg', 'rc': 0}
+[2.097471] (-) EventReactorShutdown: {}

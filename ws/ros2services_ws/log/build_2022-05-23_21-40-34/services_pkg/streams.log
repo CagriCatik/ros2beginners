@@ -1,0 +1,54 @@
+[1.003s] Invoking command in '/home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/src/services_pkg': PYTHONPATH=/home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install/services_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/services_pkg build --build-base /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/build/services_pkg/build install --prefix /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install/services_pkg --record /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/build/services_pkg/install.log --single-version-externally-managed
+[1.152s] /home/cc/.local/lib/python3.8/site-packages/setuptools/dist.py:757: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.152s]   warnings.warn(
+[1.152s] /home/cc/.local/lib/python3.8/site-packages/setuptools/dist.py:757: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[1.152s]   warnings.warn(
+[1.480s] running egg_info
+[1.517s] writing ../../build/services_pkg/services_pkg.egg-info/PKG-INFO
+[1.544s] writing dependency_links to ../../build/services_pkg/services_pkg.egg-info/dependency_links.txt
+[1.626s] writing entry points to ../../build/services_pkg/services_pkg.egg-info/entry_points.txt
+[1.683s] writing requirements to ../../build/services_pkg/services_pkg.egg-info/requires.txt
+[1.710s] writing top-level names to ../../build/services_pkg/services_pkg.egg-info/top_level.txt
+[1.755s] reading manifest file '../../build/services_pkg/services_pkg.egg-info/SOURCES.txt'
+[1.755s] writing manifest file '../../build/services_pkg/services_pkg.egg-info/SOURCES.txt'
+[1.756s] running build
+[1.756s] running build_py
+[1.756s] copying services_pkg/add_two_ints_client_no_oop.py -> /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/build/services_pkg/build/lib/services_pkg
+[1.756s] copying services_pkg/smartphone.py -> /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/build/services_pkg/build/lib/services_pkg
+[1.756s] copying services_pkg/template_python_node.py -> /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/build/services_pkg/build/lib/services_pkg
+[1.756s] copying services_pkg/robot_news_station.py -> /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/build/services_pkg/build/lib/services_pkg
+[1.756s] copying services_pkg/add_two_ints_client.py -> /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/build/services_pkg/build/lib/services_pkg
+[1.756s] copying services_pkg/number_counter.py -> /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/build/services_pkg/build/lib/services_pkg
+[1.756s] copying services_pkg/number_publisher.py -> /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/build/services_pkg/build/lib/services_pkg
+[1.756s] copying services_pkg/add_two_ints_server.py -> /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/build/services_pkg/build/lib/services_pkg
+[1.756s] running install
+[1.756s] /home/cc/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.756s]   warnings.warn(
+[1.759s] running install_lib
+[1.795s] copying /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/build/services_pkg/build/lib/services_pkg/add_two_ints_client_no_oop.py -> /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install/services_pkg/lib/python3.8/site-packages/services_pkg
+[1.795s] copying /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/build/services_pkg/build/lib/services_pkg/smartphone.py -> /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install/services_pkg/lib/python3.8/site-packages/services_pkg
+[1.795s] copying /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/build/services_pkg/build/lib/services_pkg/template_python_node.py -> /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install/services_pkg/lib/python3.8/site-packages/services_pkg
+[1.795s] copying /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/build/services_pkg/build/lib/services_pkg/robot_news_station.py -> /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install/services_pkg/lib/python3.8/site-packages/services_pkg
+[1.795s] copying /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/build/services_pkg/build/lib/services_pkg/add_two_ints_client.py -> /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install/services_pkg/lib/python3.8/site-packages/services_pkg
+[1.795s] copying /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/build/services_pkg/build/lib/services_pkg/number_counter.py -> /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install/services_pkg/lib/python3.8/site-packages/services_pkg
+[1.795s] copying /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/build/services_pkg/build/lib/services_pkg/number_publisher.py -> /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install/services_pkg/lib/python3.8/site-packages/services_pkg
+[1.795s] copying /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/build/services_pkg/build/lib/services_pkg/add_two_ints_server.py -> /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install/services_pkg/lib/python3.8/site-packages/services_pkg
+[1.795s] byte-compiling /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install/services_pkg/lib/python3.8/site-packages/services_pkg/add_two_ints_client_no_oop.py to add_two_ints_client_no_oop.cpython-38.pyc
+[1.795s] byte-compiling /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install/services_pkg/lib/python3.8/site-packages/services_pkg/smartphone.py to smartphone.cpython-38.pyc
+[1.795s] byte-compiling /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install/services_pkg/lib/python3.8/site-packages/services_pkg/template_python_node.py to template_python_node.cpython-38.pyc
+[1.796s] byte-compiling /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install/services_pkg/lib/python3.8/site-packages/services_pkg/robot_news_station.py to robot_news_station.cpython-38.pyc
+[1.796s] byte-compiling /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install/services_pkg/lib/python3.8/site-packages/services_pkg/add_two_ints_client.py to add_two_ints_client.cpython-38.pyc
+[1.796s] byte-compiling /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install/services_pkg/lib/python3.8/site-packages/services_pkg/number_counter.py to number_counter.cpython-38.pyc
+[1.796s] byte-compiling /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install/services_pkg/lib/python3.8/site-packages/services_pkg/number_publisher.py to number_publisher.cpython-38.pyc
+[1.796s] byte-compiling /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install/services_pkg/lib/python3.8/site-packages/services_pkg/add_two_ints_server.py to add_two_ints_server.cpython-38.pyc
+[1.797s] running install_data
+[1.806s] copying package.xml -> /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install/services_pkg/share/services_pkg
+[1.806s] running install_egg_info
+[1.842s] removing '/home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install/services_pkg/lib/python3.8/site-packages/services_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[1.842s] Copying ../../build/services_pkg/services_pkg.egg-info to /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install/services_pkg/lib/python3.8/site-packages/services_pkg-0.0.0-py3.8.egg-info
+[1.842s] running install_scripts
+[1.914s] Installing listener_node script to /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install/services_pkg/lib/services_pkg
+[1.914s] Installing py_node script to /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install/services_pkg/lib/services_pkg
+[1.914s] Installing talker_node script to /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install/services_pkg/lib/services_pkg
+[1.914s] writing list of installed files to '/home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/build/services_pkg/install.log'
+[1.929s] Invoked command in '/home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/src/services_pkg' returned '0': PYTHONPATH=/home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install/services_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/services_pkg build --build-base /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/build/services_pkg/build install --prefix /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install/services_pkg --record /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/build/services_pkg/install.log --single-version-externally-managed

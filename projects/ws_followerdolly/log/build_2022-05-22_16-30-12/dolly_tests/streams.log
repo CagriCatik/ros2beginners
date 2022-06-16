@@ -1,0 +1,25 @@
+[0.005s] Invoking command in '/home/cc/pg-ros/4_ROS2_Beginners/project_followerdolly_ws/build/dolly_tests': AMENT_PREFIX_PATH=/home/cc/pg-ros/4_ROS2_Beginners/project_followerdolly_ws/install/dolly_follow:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cc/pg-ros/4_ROS2_Beginners/project_followerdolly_ws/install/dolly_follow:/home/cc/ros2_ws/install/my_cpp_pkg:/home/cc/pg-ros/4_ROS2_Beginners/ros2nodes_ws/install/nodes_pkg:/home/cc/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake /home/cc/pg-ros/4_ROS2_Beginners/project_followerdolly_ws/src/dolly_tests -DCMAKE_INSTALL_PREFIX=/home/cc/pg-ros/4_ROS2_Beginners/project_followerdolly_ws/install/dolly_tests
+[0.034s] -- The C compiler identification is GNU 9.4.0
+[0.064s] -- The CXX compiler identification is GNU 9.4.0
+[0.067s] -- Check for working C compiler: /usr/bin/cc
+[0.103s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.104s] -- Detecting C compiler ABI info
+[0.141s] -- Detecting C compiler ABI info - done
+[0.147s] -- Detecting C compile features
+[0.147s] -- Detecting C compile features - done
+[0.149s] -- Check for working CXX compiler: /usr/bin/c++
+[0.191s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.191s] -- Detecting CXX compiler ABI info
+[0.233s] -- Detecting CXX compiler ABI info - done
+[0.240s] -- Detecting CXX compile features
+[0.240s] -- Detecting CXX compile features - done
+[0.247s] CMake Warning at CMakeLists.txt:18 (message):
+[0.247s]   Ignition Gazebo 5 or 6 not found, proceeding without that simulator.
+[0.247s] 
+[0.247s] 
+[0.247s] -- Configuring done
+[0.247s] -- Generating done
+[0.248s] -- Build files have been written to: /home/cc/pg-ros/4_ROS2_Beginners/project_followerdolly_ws/build/dolly_tests
+[0.249s] Invoked command in '/home/cc/pg-ros/4_ROS2_Beginners/project_followerdolly_ws/build/dolly_tests' returned '0': AMENT_PREFIX_PATH=/home/cc/pg-ros/4_ROS2_Beginners/project_followerdolly_ws/install/dolly_follow:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cc/pg-ros/4_ROS2_Beginners/project_followerdolly_ws/install/dolly_follow:/home/cc/ros2_ws/install/my_cpp_pkg:/home/cc/pg-ros/4_ROS2_Beginners/ros2nodes_ws/install/nodes_pkg:/home/cc/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake /home/cc/pg-ros/4_ROS2_Beginners/project_followerdolly_ws/src/dolly_tests -DCMAKE_INSTALL_PREFIX=/home/cc/pg-ros/4_ROS2_Beginners/project_followerdolly_ws/install/dolly_tests
+[0.251s] Invoking command in '/home/cc/pg-ros/4_ROS2_Beginners/project_followerdolly_ws/build/dolly_tests': AMENT_PREFIX_PATH=/home/cc/pg-ros/4_ROS2_Beginners/project_followerdolly_ws/install/dolly_follow:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cc/pg-ros/4_ROS2_Beginners/project_followerdolly_ws/install/dolly_follow:/home/cc/ros2_ws/install/my_cpp_pkg:/home/cc/pg-ros/4_ROS2_Beginners/ros2nodes_ws/install/nodes_pkg:/home/cc/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/cc/pg-ros/4_ROS2_Beginners/project_followerdolly_ws/build/dolly_tests -- -j16 -l16
+[0.270s] Invoked command in '/home/cc/pg-ros/4_ROS2_Beginners/project_followerdolly_ws/build/dolly_tests' returned '0': AMENT_PREFIX_PATH=/home/cc/pg-ros/4_ROS2_Beginners/project_followerdolly_ws/install/dolly_follow:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cc/pg-ros/4_ROS2_Beginners/project_followerdolly_ws/install/dolly_follow:/home/cc/ros2_ws/install/my_cpp_pkg:/home/cc/pg-ros/4_ROS2_Beginners/ros2nodes_ws/install/nodes_pkg:/home/cc/ros2_ws/install/my_py_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/cc/pg-ros/4_ROS2_Beginners/project_followerdolly_ws/build/dolly_tests -- -j16 -l16

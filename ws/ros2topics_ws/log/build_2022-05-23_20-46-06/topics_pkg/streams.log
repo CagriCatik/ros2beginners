@@ -1,0 +1,29 @@
+[0.971s] Invoking command in '/home/cc/pg-ros/4_ROS2_Beginners/ros2topics_ws/src/topics_pkg': PYTHONPATH=/home/cc/pg-ros/4_ROS2_Beginners/ros2topics_ws/install/topics_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/topics_pkg build --build-base /home/cc/pg-ros/4_ROS2_Beginners/ros2topics_ws/build/topics_pkg/build install --prefix /home/cc/pg-ros/4_ROS2_Beginners/ros2topics_ws/install/topics_pkg --record /home/cc/pg-ros/4_ROS2_Beginners/ros2topics_ws/build/topics_pkg/install.log --single-version-externally-managed
+[1.116s] /home/cc/.local/lib/python3.8/site-packages/setuptools/dist.py:757: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.116s]   warnings.warn(
+[1.116s] /home/cc/.local/lib/python3.8/site-packages/setuptools/dist.py:757: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[1.116s]   warnings.warn(
+[1.441s] running egg_info
+[1.477s] writing ../../build/topics_pkg/topics_pkg.egg-info/PKG-INFO
+[1.504s] writing dependency_links to ../../build/topics_pkg/topics_pkg.egg-info/dependency_links.txt
+[1.585s] writing entry points to ../../build/topics_pkg/topics_pkg.egg-info/entry_points.txt
+[1.642s] writing requirements to ../../build/topics_pkg/topics_pkg.egg-info/requires.txt
+[1.669s] writing top-level names to ../../build/topics_pkg/topics_pkg.egg-info/top_level.txt
+[1.713s] reading manifest file '../../build/topics_pkg/topics_pkg.egg-info/SOURCES.txt'
+[1.714s] writing manifest file '../../build/topics_pkg/topics_pkg.egg-info/SOURCES.txt'
+[1.714s] running build
+[1.714s] running build_py
+[1.714s] running install
+[1.714s] /home/cc/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.714s]   warnings.warn(
+[1.717s] running install_lib
+[1.752s] running install_data
+[1.760s] running install_egg_info
+[1.796s] removing '/home/cc/pg-ros/4_ROS2_Beginners/ros2topics_ws/install/topics_pkg/lib/python3.8/site-packages/topics_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[1.796s] Copying ../../build/topics_pkg/topics_pkg.egg-info to /home/cc/pg-ros/4_ROS2_Beginners/ros2topics_ws/install/topics_pkg/lib/python3.8/site-packages/topics_pkg-0.0.0-py3.8.egg-info
+[1.796s] running install_scripts
+[1.868s] Installing listener_node script to /home/cc/pg-ros/4_ROS2_Beginners/ros2topics_ws/install/topics_pkg/lib/topics_pkg
+[1.868s] Installing py_node script to /home/cc/pg-ros/4_ROS2_Beginners/ros2topics_ws/install/topics_pkg/lib/topics_pkg
+[1.868s] Installing talker_node script to /home/cc/pg-ros/4_ROS2_Beginners/ros2topics_ws/install/topics_pkg/lib/topics_pkg
+[1.868s] writing list of installed files to '/home/cc/pg-ros/4_ROS2_Beginners/ros2topics_ws/build/topics_pkg/install.log'
+[1.882s] Invoked command in '/home/cc/pg-ros/4_ROS2_Beginners/ros2topics_ws/src/topics_pkg' returned '0': PYTHONPATH=/home/cc/pg-ros/4_ROS2_Beginners/ros2topics_ws/install/topics_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/topics_pkg build --build-base /home/cc/pg-ros/4_ROS2_Beginners/ros2topics_ws/build/topics_pkg/build install --prefix /home/cc/pg-ros/4_ROS2_Beginners/ros2topics_ws/install/topics_pkg --record /home/cc/pg-ros/4_ROS2_Beginners/ros2topics_ws/build/topics_pkg/install.log --single-version-externally-managed

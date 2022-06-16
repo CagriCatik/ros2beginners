@@ -1,0 +1,32 @@
+[1.013s] Invoking command in '/home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/src/services_pkg': PYTHONPATH=/home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install/services_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/services_pkg build --build-base /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/build/services_pkg/build install --prefix /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install/services_pkg --record /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/build/services_pkg/install.log --single-version-externally-managed
+[1.162s] /home/cc/.local/lib/python3.8/site-packages/setuptools/dist.py:757: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.162s]   warnings.warn(
+[1.163s] /home/cc/.local/lib/python3.8/site-packages/setuptools/dist.py:757: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+[1.163s]   warnings.warn(
+[1.499s] running egg_info
+[1.535s] writing ../../build/services_pkg/services_pkg.egg-info/PKG-INFO
+[1.563s] writing dependency_links to ../../build/services_pkg/services_pkg.egg-info/dependency_links.txt
+[1.646s] writing entry points to ../../build/services_pkg/services_pkg.egg-info/entry_points.txt
+[1.705s] writing requirements to ../../build/services_pkg/services_pkg.egg-info/requires.txt
+[1.733s] writing top-level names to ../../build/services_pkg/services_pkg.egg-info/top_level.txt
+[1.778s] reading manifest file '../../build/services_pkg/services_pkg.egg-info/SOURCES.txt'
+[1.778s] writing manifest file '../../build/services_pkg/services_pkg.egg-info/SOURCES.txt'
+[1.779s] running build
+[1.779s] running build_py
+[1.779s] copying services_pkg/my_first_node.py -> /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/build/services_pkg/build/lib/services_pkg
+[1.779s] running install
+[1.779s] /home/cc/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.779s]   warnings.warn(
+[1.782s] running install_lib
+[1.818s] copying /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/build/services_pkg/build/lib/services_pkg/my_first_node.py -> /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install/services_pkg/lib/python3.8/site-packages/services_pkg
+[1.818s] byte-compiling /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install/services_pkg/lib/python3.8/site-packages/services_pkg/my_first_node.py to my_first_node.cpython-38.pyc
+[1.818s] running install_data
+[1.827s] running install_egg_info
+[1.863s] removing '/home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install/services_pkg/lib/python3.8/site-packages/services_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+[1.863s] Copying ../../build/services_pkg/services_pkg.egg-info to /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install/services_pkg/lib/python3.8/site-packages/services_pkg-0.0.0-py3.8.egg-info
+[1.863s] running install_scripts
+[1.937s] Installing listener_node script to /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install/services_pkg/lib/services_pkg
+[1.937s] Installing py_node script to /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install/services_pkg/lib/services_pkg
+[1.938s] Installing talker_node script to /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install/services_pkg/lib/services_pkg
+[1.938s] writing list of installed files to '/home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/build/services_pkg/install.log'
+[1.952s] Invoked command in '/home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/src/services_pkg' returned '0': PYTHONPATH=/home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install/services_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/services_pkg build --build-base /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/build/services_pkg/build install --prefix /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install/services_pkg --record /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/build/services_pkg/install.log --single-version-externally-managed

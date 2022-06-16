@@ -1,0 +1,56 @@
+[0.000000] (-) TimerEvent: {}
+[0.000259] (services_pkg) JobQueued: {'identifier': 'services_pkg', 'dependencies': OrderedDict()}
+[0.000541] (services_pkg) JobStarted: {'identifier': 'services_pkg'}
+[0.099860] (-) TimerEvent: {}
+[0.200081] (-) TimerEvent: {}
+[0.300240] (-) TimerEvent: {}
+[0.400401] (-) TimerEvent: {}
+[0.500620] (-) TimerEvent: {}
+[0.600861] (-) TimerEvent: {}
+[0.701077] (-) TimerEvent: {}
+[0.801282] (-) TimerEvent: {}
+[0.901475] (-) TimerEvent: {}
+[1.001684] (-) TimerEvent: {}
+[1.028550] (services_pkg) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/services_pkg', 'build', '--build-base', '/home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/build/services_pkg/build', 'install', '--prefix', '/home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install/services_pkg', '--record', '/home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/build/services_pkg/install.log', '--single-version-externally-managed'], 'cwd': '/home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/src/services_pkg', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'cc', 'LC_TIME': 'de_DE.UTF-8', 'SSH_AGENT_PID': '2316', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/cc', 'OLDPWD': '/home/cc/pg-ros/4_ROS2_Beginners', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_DE.UTF-8', 'MANAGERPID': '2144', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '9196', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install:/home/cc/pg-ros/4_ROS2_Beginners/ros2topics_ws/install:/home/cc/pg-ros/4_ROS2_Beginners/ros2nodes_ws/install:/home/cc/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'cc', 'JOURNAL_STREAM': '8:53585', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'cc', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/home/cc/.local/bin:/home/cc/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/cc/.cargo/bin:/home/cc/.cargo/bin:/home/cc/.cargo/bin:/home/cc/.cargo/bin:/home/cc/.cargo/bin', 'SESSION_MANAGER': 'local/cc-234098:@/tmp/.ICE-unix/2351,unix/cc-234098:/tmp/.ICE-unix/2351', 'INVOCATION_ID': '78d8b0f2c67c4da691afe789505c2754', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install/services_pkg:/home/cc/pg-ros/4_ROS2_Beginners/ros2topics_ws/install/topics_pkg:/home/cc/pg-ros/4_ROS2_Beginners/ros2nodes_ws/install/nodes_pkg:/home/cc/ros2_ws/install/my_py_pkg:/home/cc/ros2_ws/install/my_cpp_pkg:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:c051507d-a1f8-42ba-a0bc-ff255db39a70', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/build/services_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install/services_pkg/lib/python3.8/site-packages:/home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install/services_pkg/lib/python3.8/site-packages:/home/cc/pg-ros/4_ROS2_Beginners/ros2topics_ws/install/topics_pkg/lib/python3.8/site-packages:/home/cc/pg-ros/4_ROS2_Beginners/ros2nodes_ws/install/nodes_pkg/lib/python3.8/site-packages:/home/cc/ros2_ws/build/my_py_pkg:/home/cc/ros2_ws/install/my_py_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/cc/ros2_ws/install/my_cpp_pkg'}, 'shell': False}
+[1.101808] (-) TimerEvent: {}
+[1.178288] (services_pkg) StderrLine: {'line': b"/home/cc/.local/lib/python3.8/site-packages/setuptools/dist.py:757: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[1.178495] (services_pkg) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.178644] (services_pkg) StderrLine: {'line': b"/home/cc/.local/lib/python3.8/site-packages/setuptools/dist.py:757: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead\n"}
+[1.178709] (services_pkg) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.201901] (-) TimerEvent: {}
+[1.302073] (-) TimerEvent: {}
+[1.402284] (-) TimerEvent: {}
+[1.502468] (-) TimerEvent: {}
+[1.508304] (services_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.544050] (services_pkg) StdoutLine: {'line': b'writing ../../build/services_pkg/services_pkg.egg-info/PKG-INFO\n'}
+[1.571194] (services_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/services_pkg/services_pkg.egg-info/dependency_links.txt\n'}
+[1.602532] (-) TimerEvent: {}
+[1.652279] (services_pkg) StdoutLine: {'line': b'writing entry points to ../../build/services_pkg/services_pkg.egg-info/entry_points.txt\n'}
+[1.702609] (-) TimerEvent: {}
+[1.709670] (services_pkg) StdoutLine: {'line': b'writing requirements to ../../build/services_pkg/services_pkg.egg-info/requires.txt\n'}
+[1.737128] (services_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/services_pkg/services_pkg.egg-info/top_level.txt\n'}
+[1.782784] (services_pkg) StdoutLine: {'line': b"reading manifest file '../../build/services_pkg/services_pkg.egg-info/SOURCES.txt'\n"}
+[1.783352] (services_pkg) StdoutLine: {'line': b"writing manifest file '../../build/services_pkg/services_pkg.egg-info/SOURCES.txt'\n"}
+[1.783430] (services_pkg) StdoutLine: {'line': b'running build\n'}
+[1.783585] (services_pkg) StdoutLine: {'line': b'running build_py\n'}
+[1.783786] (services_pkg) StdoutLine: {'line': b'copying services_pkg/my_first_node.py -> /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/build/services_pkg/build/lib/services_pkg\n'}
+[1.783833] (services_pkg) StdoutLine: {'line': b'running install\n'}
+[1.783872] (services_pkg) StderrLine: {'line': b'/home/cc/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.783917] (services_pkg) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.786810] (services_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[1.802676] (-) TimerEvent: {}
+[1.822860] (services_pkg) StdoutLine: {'line': b'copying /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/build/services_pkg/build/lib/services_pkg/my_first_node.py -> /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install/services_pkg/lib/python3.8/site-packages/services_pkg\n'}
+[1.823124] (services_pkg) StdoutLine: {'line': b'byte-compiling /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install/services_pkg/lib/python3.8/site-packages/services_pkg/my_first_node.py to my_first_node.cpython-38.pyc\n'}
+[1.823457] (services_pkg) StdoutLine: {'line': b'running install_data\n'}
+[1.832248] (services_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.869529] (services_pkg) StdoutLine: {'line': b"removing '/home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install/services_pkg/lib/python3.8/site-packages/services_pkg-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[1.869657] (services_pkg) StdoutLine: {'line': b'Copying ../../build/services_pkg/services_pkg.egg-info to /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install/services_pkg/lib/python3.8/site-packages/services_pkg-0.0.0-py3.8.egg-info\n'}
+[1.869950] (services_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.902752] (-) TimerEvent: {}
+[1.947306] (services_pkg) StdoutLine: {'line': b'Installing listener_node script to /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install/services_pkg/lib/services_pkg\n'}
+[1.947528] (services_pkg) StdoutLine: {'line': b'Installing py_node script to /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install/services_pkg/lib/services_pkg\n'}
+[1.947628] (services_pkg) StdoutLine: {'line': b'Installing talker_node script to /home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/install/services_pkg/lib/services_pkg\n'}
+[1.947688] (services_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/cc/pg-ros/4_ROS2_Beginners/ros2services_ws/build/services_pkg/install.log'\n"}
+[1.965330] (services_pkg) CommandEnded: {'returncode': 0}
+[1.972598] (services_pkg) JobEnded: {'identifier': 'services_pkg', 'rc': 0}
+[1.972984] (-) EventReactorShutdown: {}
